@@ -1,5 +1,5 @@
 {
-  "name": "soul-editorgit -kit",
+  "name": "soul-editor-kit",
   "version": "0.11.1-soul",
   "description": "A toolkit for building WYSIWYG editors based on Mobiledoc(https://github.com/bustle/mobiledoc-kit)",
   "repository": "",
@@ -30,7 +30,7 @@
     "dist/global",
     "dist/css"
   ],
-  "author": "Garth Poitras <garth22@gmail.com> (http://garthpoitras.com/)",
+  "author": "Secondary Author: Shawn Shang<shangbo808@gmail.com>; Original Author: Garth Poitras <garth22@gmail.com> (http://garthpoitras.com/)",
   "contributors": [
     "Cory Forsyth <cory.forsyth@gmail.com> (http://coryforsyth.com/)",
     "Matthew Beale <matt.beale@madhatted.com> (http://madhatted.com/)"
@@ -39,6 +39,7 @@
   "dependencies": {
     "mobiledoc-dom-renderer": "0.6.5",
     "mobiledoc-text-renderer": "0.3.2"
+
   },
   "devDependencies": {
     "broccoli": "^1.1.3",
