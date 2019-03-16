@@ -5,8 +5,8 @@
 
 [![Sauce Test Status](https://saucelabs.com/browser-matrix/mobiledoc-kit.svg)](https://saucelabs.com/u/mobiledoc-kit)
 
-Soul editor kit 是基于mobile kit进行二次开发的一个Markdown富文本编辑器。
-因为著名的Node开源CMS-[Ghost](docs.ghost.org)使用了mobiledoc进行文字编辑，但是在使用过程中发现无法很好的支持中文，因此阅读MobileDocs源码，并进行了相关修改和优化。
+Soul Editor Kit 是基于Mobiledoc Kit进行二次开发的一个Markdown富文本编辑器。
+因为著名的Node开源CMS-[Ghost](docs.ghost.org)使用了Mobiledoc kit进行文字编辑，但是在使用过程中发现无法很好的支持中文，因此阅读MobileDocs源码，并进行了相关修改和优化。
 
 后续SoulEditorKit将基于MobileKit继续进行一些中文本地化事项，以及功能新增以及优化(新增功能将推送PullRequest给MobileDoc)
 
