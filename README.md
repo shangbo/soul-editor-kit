@@ -18,3 +18,6 @@ https://github.com/bustle/mobiledoc-kit/blob/master/README.md
 Soul Editor Kit is a richtext editor based on Mobiledoc kit.
 Because the [ghost](http://docs.ghost.org) which is a famous content management system on nodejs is using the mobiledoc as content editor. But When I use the ghost, I found the editor can't support chinese very well, which exists some bugs that made me feel bad. So I read the source belong to MobileDoc, and do some optimization for chinese input
 And then, SoulEditorKit will go on doing some localization, and some new functions development. I will send some pull request to MobileDoc for new functions.
+
+The useage of SoulEditorKit is same to MobileDoc, so if you want use it, you can visit follow path:
+https://github.com/bustle/mobiledoc-kit/blob/master/README.md
