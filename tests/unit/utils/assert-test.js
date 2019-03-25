@@ -1,6 +1,6 @@
 import Helpers from '../../test-helpers';
-import mobiledocAssert from 'mobiledoc-kit/utils/assert';
-import MobiledocError from 'mobiledoc-kit/utils/mobiledoc-error';
+import mobiledocAssert from 'soul-editor-kit/utils/assert';
+import MobiledocError from 'soul-editor-kit/utils/mobiledoc-error';
 
 const {module, test} = Helpers;
 

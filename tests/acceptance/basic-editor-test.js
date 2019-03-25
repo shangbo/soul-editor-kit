@@ -1,6 +1,6 @@
 import { Editor } from 'mobiledoc-kit';
 import Helpers from '../test-helpers';
-import { TAB, ENTER } from 'mobiledoc-kit/utils/characters';
+import { TAB, ENTER } from 'soul-editor-kit/utils/characters';
 
 const { test, module } = Helpers;
 

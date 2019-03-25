@@ -5,9 +5,9 @@ import {
   MOBILEDOC_CARD_SECTION_TYPE,
   MOBILEDOC_MARKUP_MARKER_TYPE,
   MOBILEDOC_ATOM_MARKER_TYPE
-} from 'mobiledoc-kit/renderers/mobiledoc/0-3';
+} from 'soul-editor-kit/renderers/mobiledoc/0-3';
 import { kvArrayToObject, filter } from "../../utils/array-utils";
-import assert from 'mobiledoc-kit/utils/assert';
+import assert from 'soul-editor-kit/utils/assert';
 
 /*
  * Parses from mobiledoc -> post

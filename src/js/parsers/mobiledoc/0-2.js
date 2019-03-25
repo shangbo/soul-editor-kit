@@ -3,9 +3,9 @@ import {
   MOBILEDOC_IMAGE_SECTION_TYPE,
   MOBILEDOC_LIST_SECTION_TYPE,
   MOBILEDOC_CARD_SECTION_TYPE
-} from 'mobiledoc-kit/renderers/mobiledoc/0-2';
+} from 'soul-editor-kit/renderers/mobiledoc/0-2';
 import { kvArrayToObject, filter } from "../../utils/array-utils";
-import assert from 'mobiledoc-kit/utils/assert';
+import assert from 'soul-editor-kit/utils/assert';
 
 /*
  * Parses from mobiledoc -> post

@@ -1,7 +1,7 @@
-import { endsWith } from 'mobiledoc-kit/utils/string-utils';
-import assert from 'mobiledoc-kit/utils/assert';
-import deprecate from 'mobiledoc-kit/utils/deprecate';
-import { ENTER } from 'mobiledoc-kit/utils/characters';
+import { endsWith } from 'soul-editor-kit/utils/string-utils';
+import assert from 'soul-editor-kit/utils/assert';
+import deprecate from 'soul-editor-kit/utils/deprecate';
+import { ENTER } from 'soul-editor-kit/utils/characters';
 
 class TextInputHandler {
   constructor(editor) {

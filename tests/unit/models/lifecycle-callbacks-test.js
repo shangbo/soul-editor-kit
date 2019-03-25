@@ -1,5 +1,5 @@
 import Helpers from '../../test-helpers';
-import LifecycleCallbacks from 'mobiledoc-kit/models/lifecycle-callbacks';
+import LifecycleCallbacks from 'soul-editor-kit/models/lifecycle-callbacks';
 
 const {module, test} = Helpers;
 

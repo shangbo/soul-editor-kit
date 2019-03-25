@@ -1,4 +1,4 @@
-import assert from 'mobiledoc-kit/utils/assert';
+import assert from 'soul-editor-kit/utils/assert';
 
 // start at one to make the falsy semantics easier
 let uuidGenerator = 1;

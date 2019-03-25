@@ -1,4 +1,4 @@
-import assert from 'mobiledoc-kit/utils/assert';
+import assert from 'soul-editor-kit/utils/assert';
 
 export default class LifecycleCallbacks {
   constructor(queueNames=[]) {

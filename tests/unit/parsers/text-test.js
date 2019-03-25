@@ -1,6 +1,6 @@
-import TextParser from 'mobiledoc-kit/parsers/text';
-import { SECTION_BREAK } from 'mobiledoc-kit/parsers/text';
-import PostNodeBuilder from 'mobiledoc-kit/models/post-node-builder';
+import TextParser from 'soul-editor-kit/parsers/text';
+import { SECTION_BREAK } from 'soul-editor-kit/parsers/text';
+import PostNodeBuilder from 'soul-editor-kit/models/post-node-builder';
 import Helpers from '../../test-helpers';
 
 const {module, test} = Helpers;

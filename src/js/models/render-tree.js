@@ -1,4 +1,4 @@
-import RenderNode from 'mobiledoc-kit/models/render-node';
+import RenderNode from 'soul-editor-kit/models/render-node';
 import ElementMap from '../utils/element-map';
 
 export default class RenderTree {

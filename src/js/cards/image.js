@@ -1,4 +1,4 @@
-import placeholderImageSrc from 'mobiledoc-kit/utils/placeholder-image-src';
+import placeholderImageSrc from 'soul-editor-kit/utils/placeholder-image-src';
 
 export default {
   name: 'image',

@@ -1,5 +1,5 @@
-import PostEditor from 'mobiledoc-kit/editor/post';
-import Range from 'mobiledoc-kit/utils/cursor/range';
+import PostEditor from 'soul-editor-kit/editor/post';
+import Range from 'soul-editor-kit/utils/cursor/range';
 
 class MockEditor {
   constructor(builder) {

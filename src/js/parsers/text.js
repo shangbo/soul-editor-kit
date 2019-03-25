@@ -1,11 +1,11 @@
-import assert from 'mobiledoc-kit/utils/assert';
+import assert from 'soul-editor-kit/utils/assert';
 import {
   MARKUP_SECTION_TYPE,
   LIST_SECTION_TYPE
-} from 'mobiledoc-kit/models/types';
+} from 'soul-editor-kit/models/types';
 import {
   DEFAULT_TAG_NAME as DEFAULT_MARKUP_SECTION_TAG_NAME
-} from 'mobiledoc-kit/models/markup-section';
+} from 'soul-editor-kit/models/markup-section';
 
 const UL_LI_REGEX = /^\* (.*)$/;
 const OL_LI_REGEX = /^\d\.? (.*)$/;

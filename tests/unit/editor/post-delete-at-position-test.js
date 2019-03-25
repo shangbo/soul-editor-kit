@@ -1,6 +1,6 @@
 import Helpers from '../../test-helpers';
 
-import { DIRECTION } from 'mobiledoc-kit/utils/key';
+import { DIRECTION } from 'soul-editor-kit/utils/key';
 const { FORWARD, BACKWARD } = DIRECTION;
 
 const { module, test } = Helpers;

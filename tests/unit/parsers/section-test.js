@@ -1,9 +1,9 @@
-import PostNodeBuilder from 'mobiledoc-kit/models/post-node-builder';
-import SectionParser from 'mobiledoc-kit/parsers/section';
+import PostNodeBuilder from 'soul-editor-kit/models/post-node-builder';
+import SectionParser from 'soul-editor-kit/parsers/section';
 import Helpers from '../../test-helpers';
 import {
   NODE_TYPES
-} from 'mobiledoc-kit/utils/dom-utils';
+} from 'soul-editor-kit/utils/dom-utils';
 
 const {module, test} = Helpers;
 

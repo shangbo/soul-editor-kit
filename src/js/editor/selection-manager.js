@@ -1,4 +1,4 @@
-import SelectionChangeObserver from 'mobiledoc-kit/editor/selection-change-observer';
+import SelectionChangeObserver from 'soul-editor-kit/editor/selection-change-observer';
 
 export default class SelectionManager {
   constructor(editor, callback) {

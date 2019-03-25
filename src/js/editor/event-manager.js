@@ -1,14 +1,14 @@
-import assert from 'mobiledoc-kit/utils/assert';
+import assert from 'soul-editor-kit/utils/assert';
 import {
   parsePostFromPaste,
   setClipboardData,
   parsePostFromDrop
-} from 'mobiledoc-kit/utils/parse-utils';
-import { filter, forEach } from 'mobiledoc-kit/utils/array-utils';
-import Key from 'mobiledoc-kit/utils/key';
-import TextInputHandler from 'mobiledoc-kit/editor/text-input-handler';
-import SelectionManager from 'mobiledoc-kit/editor/selection-manager';
-import Browser from 'mobiledoc-kit/utils/browser';
+} from 'soul-editor-kit/utils/parse-utils';
+import { filter, forEach } from 'soul-editor-kit/utils/array-utils';
+import Key from 'soul-editor-kit/utils/key';
+import TextInputHandler from 'soul-editor-kit/editor/text-input-handler';
+import SelectionManager from 'soul-editor-kit/editor/selection-manager';
+import Browser from 'soul-editor-kit/utils/browser';
 
 const ELEMENT_EVENT_TYPES = [
   'keydown', 'keyup', 'cut', 'copy', 'paste', 'keypress', 'drop','compositionstart','compositionend'

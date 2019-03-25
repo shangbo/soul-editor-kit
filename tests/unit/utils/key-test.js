@@ -1,8 +1,8 @@
 import Helpers from '../../test-helpers';
-import Key from 'mobiledoc-kit/utils/key';
-import { MODIFIERS } from 'mobiledoc-kit/utils/key';
-import Keys from 'mobiledoc-kit/utils/keys';
-import Keycodes from 'mobiledoc-kit/utils/keycodes';
+import Key from 'soul-editor-kit/utils/key';
+import { MODIFIERS } from 'soul-editor-kit/utils/key';
+import Keys from 'soul-editor-kit/utils/keys';
+import Keycodes from 'soul-editor-kit/utils/keycodes';
 
 const {module, test} = Helpers;
 

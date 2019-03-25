@@ -1,5 +1,5 @@
-import mobiledocParsers from 'mobiledoc-kit/parsers/mobiledoc';
-import FixedQueue from 'mobiledoc-kit/utils/fixed-queue';
+import mobiledocParsers from 'soul-editor-kit/parsers/mobiledoc';
+import FixedQueue from 'soul-editor-kit/utils/fixed-queue';
 
 function findLeafSectionAtIndex(post, index) {
   let section;

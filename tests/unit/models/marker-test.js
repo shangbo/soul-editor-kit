@@ -1,7 +1,7 @@
 import Helpers from '../../test-helpers';
 const {module, test} = Helpers;
 
-import PostNodeBuilder from 'mobiledoc-kit/models/post-node-builder';
+import PostNodeBuilder from 'soul-editor-kit/models/post-node-builder';
 
 let builder;
 module('Unit: Marker', {

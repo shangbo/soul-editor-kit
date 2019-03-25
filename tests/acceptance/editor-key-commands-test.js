@@ -1,8 +1,8 @@
-import { MODIFIERS } from 'mobiledoc-kit/utils/key';
-import Keycodes from 'mobiledoc-kit/utils/keycodes';
+import { MODIFIERS } from 'soul-editor-kit/utils/key';
+import Keycodes from 'soul-editor-kit/utils/keycodes';
 import Helpers from '../test-helpers';
-import Browser from 'mobiledoc-kit/utils/browser';
-import { toggleLink } from 'mobiledoc-kit/editor/ui';
+import Browser from 'soul-editor-kit/utils/browser';
+import { toggleLink } from 'soul-editor-kit/editor/ui';
 
 const { module, test, skip } = Helpers;
 

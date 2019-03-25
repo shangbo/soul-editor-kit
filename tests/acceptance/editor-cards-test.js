@@ -1,6 +1,6 @@
-import { DIRECTION } from 'mobiledoc-kit/utils/key';
+import { DIRECTION } from 'soul-editor-kit/utils/key';
 import Helpers from '../test-helpers';
-import { CARD_MODES } from 'mobiledoc-kit/models/card';
+import { CARD_MODES } from 'soul-editor-kit/models/card';
 
 const { test, module } = Helpers;
 const { editor: { buildFromText } } = Helpers;

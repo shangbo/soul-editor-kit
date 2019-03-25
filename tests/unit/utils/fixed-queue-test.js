@@ -1,5 +1,5 @@
 import Helpers from '../../test-helpers';
-import FixedQueue from 'mobiledoc-kit/utils/fixed-queue';
+import FixedQueue from 'soul-editor-kit/utils/fixed-queue';
 
 const {module, test} = Helpers;
 

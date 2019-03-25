@@ -1,6 +1,6 @@
 import { Editor } from 'mobiledoc-kit';
 import Helpers from '../test-helpers';
-import Range from 'mobiledoc-kit/utils/cursor/range';
+import Range from 'soul-editor-kit/utils/cursor/range';
 
 const { module, test } = Helpers;
 

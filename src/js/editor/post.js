@@ -1,13 +1,13 @@
 import Position from '../utils/cursor/position';
-import Range from 'mobiledoc-kit/utils/cursor/range';
+import Range from 'soul-editor-kit/utils/cursor/range';
 import { forEach, reduce, filter, values, commonItems } from '../utils/array-utils';
 import { DIRECTION } from '../utils/key';
 import LifecycleCallbacks from '../models/lifecycle-callbacks';
 import assert from '../utils/assert';
 import { normalizeTagName } from '../utils/dom-utils';
 import PostInserter from './post/post-inserter';
-import deprecate from 'mobiledoc-kit/utils/deprecate';
-import toRange from 'mobiledoc-kit/utils/to-range';
+import deprecate from 'soul-editor-kit/utils/deprecate';
+import toRange from 'soul-editor-kit/utils/to-range';
 
 const { FORWARD, BACKWARD } = DIRECTION;
 

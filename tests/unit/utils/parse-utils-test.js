@@ -5,7 +5,7 @@ import {
   NONSTANDARD_IE_TEXT_TYPE,
   getContentFromPasteEvent,
   setClipboardData
-} from 'mobiledoc-kit/utils/parse-utils';
+} from 'soul-editor-kit/utils/parse-utils';
 
 const {module, test} = Helpers;
 

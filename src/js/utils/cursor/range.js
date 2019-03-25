@@ -1,6 +1,6 @@
 import Position from './position';
 import { DIRECTION } from '../key';
-import assert from 'mobiledoc-kit/utils/assert';
+import assert from 'soul-editor-kit/utils/assert';
 
 /**
  * A logical range of a {@link Post}.

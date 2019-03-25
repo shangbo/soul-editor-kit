@@ -1,8 +1,8 @@
 import Helpers from '../test-helpers';
-import Range from 'mobiledoc-kit/utils/cursor/range';
-import { NO_BREAK_SPACE } from 'mobiledoc-kit/renderers/editor-dom';
-import { TAB, ENTER } from 'mobiledoc-kit/utils/characters';
-import { MODIFIERS }  from 'mobiledoc-kit/utils/key';
+import Range from 'soul-editor-kit/utils/cursor/range';
+import { NO_BREAK_SPACE } from 'soul-editor-kit/renderers/editor-dom';
+import { TAB, ENTER } from 'soul-editor-kit/utils/characters';
+import { MODIFIERS }  from 'soul-editor-kit/utils/key';
 
 const { module, test } = Helpers;
 const { editor: { buildFromText } } = Helpers;

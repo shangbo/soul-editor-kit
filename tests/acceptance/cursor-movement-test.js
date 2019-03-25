@@ -1,6 +1,6 @@
 import { Editor } from 'mobiledoc-kit';
 import Helpers from '../test-helpers';
-import { MODIFIERS } from 'mobiledoc-kit/utils/key';
+import { MODIFIERS } from 'soul-editor-kit/utils/key';
 import { supportsSelectionExtend } from '../helpers/browsers';
 
 const { test, module } = Helpers;

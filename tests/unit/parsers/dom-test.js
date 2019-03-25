@@ -1,7 +1,7 @@
-import DOMParser from 'mobiledoc-kit/parsers/dom';
-import PostNodeBuilder from 'mobiledoc-kit/models/post-node-builder';
+import DOMParser from 'soul-editor-kit/parsers/dom';
+import PostNodeBuilder from 'soul-editor-kit/models/post-node-builder';
 import Helpers from '../../test-helpers';
-import { TAB } from 'mobiledoc-kit/utils/characters';
+import { TAB } from 'soul-editor-kit/utils/characters';
 
 const {module, test} = Helpers;
 const { postAbstract: { buildFromText } } = Helpers;

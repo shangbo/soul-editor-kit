@@ -1,6 +1,6 @@
 import { Editor } from 'mobiledoc-kit';
 import Helpers from '../test-helpers';
-import { MOBILEDOC_VERSION } from 'mobiledoc-kit/renderers/mobiledoc/0-2';
+import { MOBILEDOC_VERSION } from 'soul-editor-kit/renderers/mobiledoc/0-2';
 
 const { test, module } = Helpers;
 

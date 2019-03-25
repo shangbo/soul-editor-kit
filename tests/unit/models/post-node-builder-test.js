@@ -1,5 +1,5 @@
 import Helpers from '../../test-helpers';
-import PostNodeBuilder from 'mobiledoc-kit/models/post-node-builder';
+import PostNodeBuilder from 'soul-editor-kit/models/post-node-builder';
 
 const {module, test} = Helpers;
 

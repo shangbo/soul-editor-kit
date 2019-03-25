@@ -1,6 +1,6 @@
-import PostNodeBuilder from 'mobiledoc-kit/models/post-node-builder';
+import PostNodeBuilder from 'soul-editor-kit/models/post-node-builder';
 import Helpers from '../../test-helpers';
-import Position from 'mobiledoc-kit/utils/cursor/position';
+import Position from 'soul-editor-kit/utils/cursor/position';
 
 const {module, test} = Helpers;
 

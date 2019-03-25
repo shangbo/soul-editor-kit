@@ -1,5 +1,5 @@
-import HTMLParser from 'mobiledoc-kit/parsers/html';
-import PostNodeBuilder from 'mobiledoc-kit/models/post-node-builder';
+import HTMLParser from 'soul-editor-kit/parsers/html';
+import PostNodeBuilder from 'soul-editor-kit/models/post-node-builder';
 import Helpers from '../../test-helpers';
 
 const {module, test} = Helpers;

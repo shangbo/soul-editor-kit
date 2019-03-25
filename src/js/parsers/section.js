@@ -1,25 +1,25 @@
 import {
   DEFAULT_TAG_NAME,
   VALID_MARKUP_SECTION_TAGNAMES
-} from 'mobiledoc-kit/models/markup-section';
+} from 'soul-editor-kit/models/markup-section';
 
 import {
   VALID_LIST_SECTION_TAGNAMES
-} from 'mobiledoc-kit/models/list-section';
+} from 'soul-editor-kit/models/list-section';
 
 import {
   VALID_LIST_ITEM_TAGNAMES
-} from 'mobiledoc-kit/models/list-item';
+} from 'soul-editor-kit/models/list-item';
 
 import {
   LIST_SECTION_TYPE,
   LIST_ITEM_TYPE,
   MARKUP_SECTION_TYPE
-} from 'mobiledoc-kit/models/types';
+} from 'soul-editor-kit/models/types';
 
 import {
   VALID_MARKUP_TAGNAMES
-} from 'mobiledoc-kit/models/markup';
+} from 'soul-editor-kit/models/markup';
 
 import {
   getAttributes,
@@ -27,12 +27,12 @@ import {
   isTextNode,
   isCommentNode,
   NODE_TYPES
-} from 'mobiledoc-kit/utils/dom-utils';
+} from 'soul-editor-kit/utils/dom-utils';
 
 import {
   forEach,
   contains
-} from 'mobiledoc-kit/utils/array-utils';
+} from 'soul-editor-kit/utils/array-utils';
 
 import {
   transformHTMLText,

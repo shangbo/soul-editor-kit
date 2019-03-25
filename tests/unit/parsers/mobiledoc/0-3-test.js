@@ -1,6 +1,6 @@
-import MobiledocParser from 'mobiledoc-kit/parsers/mobiledoc/0-3';
-import { MOBILEDOC_VERSION } from 'mobiledoc-kit/renderers/mobiledoc/0-3';
-import PostNodeBuilder from 'mobiledoc-kit/models/post-node-builder';
+import MobiledocParser from 'soul-editor-kit/parsers/mobiledoc/0-3';
+import { MOBILEDOC_VERSION } from 'soul-editor-kit/renderers/mobiledoc/0-3';
+import PostNodeBuilder from 'soul-editor-kit/models/post-node-builder';
 
 const DATA_URL = "data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=";
 import Helpers from '../../../test-helpers';

@@ -1,15 +1,15 @@
-import { clearSelection } from 'mobiledoc-kit/utils/selection-utils';
-import { forEach, contains } from 'mobiledoc-kit/utils/array-utils';
-import KEY_CODES from 'mobiledoc-kit/utils/keycodes';
-import { DIRECTION, MODIFIERS }  from 'mobiledoc-kit/utils/key';
-import { isTextNode } from 'mobiledoc-kit/utils/dom-utils';
-import { merge } from 'mobiledoc-kit/utils/merge';
+import { clearSelection } from 'soul-editor-kit/utils/selection-utils';
+import { forEach, contains } from 'soul-editor-kit/utils/array-utils';
+import KEY_CODES from 'soul-editor-kit/utils/keycodes';
+import { DIRECTION, MODIFIERS }  from 'soul-editor-kit/utils/key';
+import { isTextNode } from 'soul-editor-kit/utils/dom-utils';
+import { merge } from 'soul-editor-kit/utils/merge';
 import { Editor } from 'mobiledoc-kit';
 import {
   MIME_TEXT_PLAIN,
   MIME_TEXT_HTML
-} from 'mobiledoc-kit/utils/parse-utils';
-import { dasherize } from 'mobiledoc-kit/utils/string-utils';
+} from 'soul-editor-kit/utils/parse-utils';
+import { dasherize } from 'soul-editor-kit/utils/string-utils';
 
 function assertEditor(editor) {
   if (!(editor instanceof Editor)) {

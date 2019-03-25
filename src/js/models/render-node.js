@@ -1,7 +1,7 @@
-import LinkedItem from 'mobiledoc-kit/utils/linked-item';
-import LinkedList from 'mobiledoc-kit/utils/linked-list';
-import { containsNode } from 'mobiledoc-kit/utils/dom-utils';
-import assert from 'mobiledoc-kit/utils/assert';
+import LinkedItem from 'soul-editor-kit/utils/linked-item';
+import LinkedList from 'soul-editor-kit/utils/linked-list';
+import { containsNode } from 'soul-editor-kit/utils/dom-utils';
+import assert from 'soul-editor-kit/utils/assert';
 
 export default class RenderNode extends LinkedItem {
   constructor(postNode, renderTree) {

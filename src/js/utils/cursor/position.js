@@ -1,12 +1,12 @@
-import { isTextNode } from 'mobiledoc-kit/utils/dom-utils';
-import assert from 'mobiledoc-kit/utils/assert';
+import { isTextNode } from 'soul-editor-kit/utils/dom-utils';
+import assert from 'soul-editor-kit/utils/assert';
 import {
   HIGH_SURROGATE_RANGE,
   LOW_SURROGATE_RANGE
-} from 'mobiledoc-kit/models/marker';
-import { containsNode } from 'mobiledoc-kit/utils/dom-utils';
-import { findOffsetInNode } from 'mobiledoc-kit/utils/selection-utils';
-import { DIRECTION } from 'mobiledoc-kit/utils/key';
+} from 'soul-editor-kit/models/marker';
+import { containsNode } from 'soul-editor-kit/utils/dom-utils';
+import { findOffsetInNode } from 'soul-editor-kit/utils/selection-utils';
+import { DIRECTION } from 'soul-editor-kit/utils/key';
 import Range from './range';
 
 const { FORWARD, BACKWARD } = DIRECTION;

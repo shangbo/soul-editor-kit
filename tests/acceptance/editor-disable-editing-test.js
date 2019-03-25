@@ -1,7 +1,7 @@
 import { Editor } from 'mobiledoc-kit';
 import Helpers from '../test-helpers';
-import { TAB, ENTER } from 'mobiledoc-kit/utils/characters';
-import { MIME_TEXT_PLAIN } from 'mobiledoc-kit/utils/parse-utils';
+import { TAB, ENTER } from 'soul-editor-kit/utils/characters';
+import { MIME_TEXT_PLAIN } from 'soul-editor-kit/utils/parse-utils';
 
 const { test, module } = Helpers;
 

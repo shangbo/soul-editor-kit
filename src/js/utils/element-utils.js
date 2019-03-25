@@ -1,7 +1,7 @@
-import { dasherize } from 'mobiledoc-kit/utils/string-utils';
+import { dasherize } from 'soul-editor-kit/utils/string-utils';
 import {
   normalizeTagName
-} from 'mobiledoc-kit/utils/dom-utils';
+} from 'soul-editor-kit/utils/dom-utils';
 
 function getEventTargetMatchingTag(tagName, target, container) {
   tagName = normalizeTagName(tagName);

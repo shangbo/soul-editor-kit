@@ -5,10 +5,10 @@ import { DIRECTION } from '../utils/key';
 import mobiledocParsers from '../parsers/mobiledoc';
 import HTMLParser from '../parsers/html';
 import DOMParser from '../parsers/dom';
-import Renderer  from 'mobiledoc-kit/renderers/editor-dom';
-import RenderTree from 'mobiledoc-kit/models/render-tree';
+import Renderer  from 'soul-editor-kit/renderers/editor-dom';
+import RenderTree from 'soul-editor-kit/models/render-tree';
 import mobiledocRenderers from '../renderers/mobiledoc';
-import { MOBILEDOC_VERSION } from 'mobiledoc-kit/renderers/mobiledoc';
+import { MOBILEDOC_VERSION } from 'soul-editor-kit/renderers/mobiledoc';
 import { mergeWithOptions } from '../utils/merge';
 import { normalizeTagName, clearChildNodes, serializeHTML } from '../utils/dom-utils';
 import { forEach, filter, contains, values, detect } from '../utils/array-utils';
@@ -24,20 +24,20 @@ import {
 } from './key-commands';
 import { CARD_MODES } from '../models/card';
 import assert from '../utils/assert';
-import MutationHandler from 'mobiledoc-kit/editor/mutation-handler';
-import EditHistory from 'mobiledoc-kit/editor/edit-history';
-import EventManager from 'mobiledoc-kit/editor/event-manager';
-import EditState from 'mobiledoc-kit/editor/edit-state';
+import MutationHandler from 'soul-editor-kit/editor/mutation-handler';
+import EditHistory from 'soul-editor-kit/editor/edit-history';
+import EventManager from 'soul-editor-kit/editor/event-manager';
+import EditState from 'soul-editor-kit/editor/edit-state';
 import DOMRenderer from 'mobiledoc-dom-renderer';
 import TextRenderer from 'mobiledoc-text-renderer';
-import LifecycleCallbacks from 'mobiledoc-kit/models/lifecycle-callbacks';
-import LogManager from 'mobiledoc-kit/utils/log-manager';
-import toRange from 'mobiledoc-kit/utils/to-range';
-import MobiledocError from 'mobiledoc-kit/utils/mobiledoc-error';
+import LifecycleCallbacks from 'soul-editor-kit/models/lifecycle-callbacks';
+import LogManager from 'soul-editor-kit/utils/log-manager';
+import toRange from 'soul-editor-kit/utils/to-range';
+import MobiledocError from 'soul-editor-kit/utils/mobiledoc-error';
 
 // This export may later be deprecated, but re-export it from the renderer here
 // for consumers that may depend on it.
-export { EDITOR_ELEMENT_CLASS_NAME } from 'mobiledoc-kit/renderers/editor-dom';
+export { EDITOR_ELEMENT_CLASS_NAME } from 'soul-editor-kit/renderers/editor-dom';
 
 const defaults = {
   placeholder: 'Write here...',

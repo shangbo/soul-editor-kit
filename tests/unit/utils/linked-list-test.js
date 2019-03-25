@@ -1,8 +1,8 @@
 import Helpers from '../../test-helpers';
 const {module, test} = Helpers;
 
-import LinkedList from 'mobiledoc-kit/utils/linked-list';
-import LinkedItem from 'mobiledoc-kit/utils/linked-item';
+import LinkedList from 'soul-editor-kit/utils/linked-list';
+import LinkedItem from 'soul-editor-kit/utils/linked-item';
 
 const INSERTION_METHODS = ['append', 'prepend', 'insertBefore', 'insertAfter'];
 

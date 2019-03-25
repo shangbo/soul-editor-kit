@@ -1,9 +1,9 @@
 import { POST_TYPE } from './types';
-import LinkedList from 'mobiledoc-kit/utils/linked-list';
-import { forEach } from 'mobiledoc-kit/utils/array-utils';
-import Set from 'mobiledoc-kit/utils/set';
-import Position from 'mobiledoc-kit/utils/cursor/position';
-import assert from 'mobiledoc-kit/utils/assert';
+import LinkedList from 'soul-editor-kit/utils/linked-list';
+import { forEach } from 'soul-editor-kit/utils/array-utils';
+import Set from 'soul-editor-kit/utils/set';
+import Position from 'soul-editor-kit/utils/cursor/position';
+import assert from 'soul-editor-kit/utils/assert';
 
 /**
  * The Post is an in-memory representation of an editor's document.

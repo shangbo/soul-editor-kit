@@ -1,4 +1,4 @@
-import PostNodeBuilder from 'mobiledoc-kit/models/post-node-builder';
+import PostNodeBuilder from 'soul-editor-kit/models/post-node-builder';
 
 /*
  * usage:

@@ -3,8 +3,8 @@ import Helpers from '../test-helpers';
 import {
   MIME_TEXT_PLAIN,
   MIME_TEXT_HTML
-} from 'mobiledoc-kit/utils/parse-utils';
-import Keycodes  from 'mobiledoc-kit/utils/keycodes';
+} from 'soul-editor-kit/utils/parse-utils';
+import Keycodes  from 'soul-editor-kit/utils/keycodes';
 
 const { module, test } = Helpers;
 

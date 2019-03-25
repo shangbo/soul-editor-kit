@@ -1,6 +1,6 @@
-import CardNode from 'mobiledoc-kit/models/card-node';
-import { detect, forEach } from 'mobiledoc-kit/utils/array-utils';
-import AtomNode from 'mobiledoc-kit/models/atom-node';
+import CardNode from 'soul-editor-kit/models/card-node';
+import { detect, forEach } from 'soul-editor-kit/utils/array-utils';
+import AtomNode from 'soul-editor-kit/models/atom-node';
 import {
   POST_TYPE,
   MARKUP_SECTION_TYPE,
@@ -15,7 +15,7 @@ import { startsWith, endsWith } from '../utils/string-utils';
 import { addClassName, removeClassName } from '../utils/dom-utils';
 import { MARKUP_SECTION_ELEMENT_NAMES } from '../models/markup-section';
 import assert from '../utils/assert';
-import { TAB } from 'mobiledoc-kit/utils/characters';
+import { TAB } from 'soul-editor-kit/utils/characters';
 
 export const CARD_ELEMENT_CLASS_NAME = '__mobiledoc-card';
 export const NO_BREAK_SPACE = '\u00A0';

@@ -1,4 +1,4 @@
-import { toggleLink } from 'mobiledoc-kit/editor/ui';
+import { toggleLink } from 'soul-editor-kit/editor/ui';
 import Helpers from '../../test-helpers';
 
 const { module, test } = Helpers;

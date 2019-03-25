@@ -1,7 +1,7 @@
-import Set from 'mobiledoc-kit/utils/set';
-import { forEach, filter } from 'mobiledoc-kit/utils/array-utils';
-import assert from 'mobiledoc-kit/utils/assert';
-import { containsNode } from 'mobiledoc-kit/utils/dom-utils';
+import Set from 'soul-editor-kit/utils/set';
+import { forEach, filter } from 'soul-editor-kit/utils/array-utils';
+import assert from 'soul-editor-kit/utils/assert';
+import { containsNode } from 'soul-editor-kit/utils/dom-utils';
 
 const MUTATION = {
   NODES_CHANGED: 'childList',

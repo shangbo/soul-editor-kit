@@ -1,8 +1,8 @@
-import PostEditor from 'mobiledoc-kit/editor/post';
+import PostEditor from 'soul-editor-kit/editor/post';
 import { Editor } from 'mobiledoc-kit';
 import Helpers from '../../test-helpers';
-import PostNodeBuilder from 'mobiledoc-kit/models/post-node-builder';
-import Range from 'mobiledoc-kit/utils/cursor/range';
+import PostNodeBuilder from 'soul-editor-kit/models/post-node-builder';
+import Range from 'soul-editor-kit/utils/cursor/range';
 
 const { module, test } = Helpers;
 

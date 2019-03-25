@@ -1,11 +1,11 @@
 import PostAbstractHelpers from './post-abstract';
-import mobiledocRenderers from 'mobiledoc-kit/renderers/mobiledoc';
-import MobiledocRenderer_0_2, { MOBILEDOC_VERSION as MOBILEDOC_VERSION_0_2 } from 'mobiledoc-kit/renderers/mobiledoc/0-2';
-import MobiledocRenderer_0_3, { MOBILEDOC_VERSION as MOBILEDOC_VERSION_0_3 } from 'mobiledoc-kit/renderers/mobiledoc/0-3';
-import MobiledocRenderer_0_3_1, { MOBILEDOC_VERSION as MOBILEDOC_VERSION_0_3_1 } from 'mobiledoc-kit/renderers/mobiledoc/0-3-1';
-import Editor from 'mobiledoc-kit/editor/editor';
-import Range from 'mobiledoc-kit/utils/cursor/range';
-import { mergeWithOptions } from 'mobiledoc-kit/utils/merge';
+import mobiledocRenderers from 'soul-editor-kit/renderers/mobiledoc';
+import MobiledocRenderer_0_2, { MOBILEDOC_VERSION as MOBILEDOC_VERSION_0_2 } from 'soul-editor-kit/renderers/mobiledoc/0-2';
+import MobiledocRenderer_0_3, { MOBILEDOC_VERSION as MOBILEDOC_VERSION_0_3 } from 'soul-editor-kit/renderers/mobiledoc/0-3';
+import MobiledocRenderer_0_3_1, { MOBILEDOC_VERSION as MOBILEDOC_VERSION_0_3_1 } from 'soul-editor-kit/renderers/mobiledoc/0-3-1';
+import Editor from 'soul-editor-kit/editor/editor';
+import Range from 'soul-editor-kit/utils/cursor/range';
+import { mergeWithOptions } from 'soul-editor-kit/utils/merge';
 
 /*
  * usage:

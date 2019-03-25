@@ -1,5 +1,5 @@
 import Helpers from '../../test-helpers';
-import { kvArrayToObject, objectToSortedKVArray } from 'mobiledoc-kit/utils/array-utils';
+import { kvArrayToObject, objectToSortedKVArray } from 'soul-editor-kit/utils/array-utils';
 
 const {module, test} = Helpers;
 

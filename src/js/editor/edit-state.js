@@ -1,5 +1,5 @@
-import { contains, isArrayEqual } from 'mobiledoc-kit/utils/array-utils';
-import Range from 'mobiledoc-kit/utils/cursor/range';
+import { contains, isArrayEqual } from 'soul-editor-kit/utils/array-utils';
+import Range from 'soul-editor-kit/utils/cursor/range';
 
 /**
  * Used by {@link Editor} to manage its current state (cursor, active markups

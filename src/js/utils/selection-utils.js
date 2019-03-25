@@ -1,5 +1,5 @@
 import { DIRECTION } from '../utils/key';
-import { isTextNode, isElementNode } from 'mobiledoc-kit/utils/dom-utils';
+import { isTextNode, isElementNode } from 'soul-editor-kit/utils/dom-utils';
 
 function clearSelection() {
   window.getSelection().removeAllRanges();

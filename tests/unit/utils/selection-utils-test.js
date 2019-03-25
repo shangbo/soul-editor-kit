@@ -1,8 +1,8 @@
 import Helpers from '../../test-helpers';
 const {module, test} = Helpers;
 
-import { comparePosition } from 'mobiledoc-kit/utils/selection-utils';
-import { DIRECTION } from 'mobiledoc-kit/utils/key';
+import { comparePosition } from 'soul-editor-kit/utils/selection-utils';
+import { DIRECTION } from 'soul-editor-kit/utils/key';
 
 module('Unit: Utils: Selection Utils');
 

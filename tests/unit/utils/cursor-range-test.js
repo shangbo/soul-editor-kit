@@ -1,7 +1,7 @@
 import Helpers from '../../test-helpers';
-import Range from 'mobiledoc-kit/utils/cursor/range';
-import { DIRECTION } from 'mobiledoc-kit/utils/key';
-import { detect } from 'mobiledoc-kit/utils/array-utils';
+import Range from 'soul-editor-kit/utils/cursor/range';
+import { DIRECTION } from 'soul-editor-kit/utils/key';
+import { detect } from 'soul-editor-kit/utils/array-utils';
 
 const { FORWARD, BACKWARD } = DIRECTION;
 const {module, test} = Helpers;

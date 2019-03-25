@@ -1,7 +1,7 @@
 /* global QUnit, $ */
 
 import DOMHelper from './dom';
-import mobiledocRenderers from 'mobiledoc-kit/renderers/mobiledoc';
+import mobiledocRenderers from 'soul-editor-kit/renderers/mobiledoc';
 import {
   MARKUP_SECTION_TYPE,
   LIST_SECTION_TYPE,
@@ -12,7 +12,7 @@ import {
   CARD_TYPE,
   IMAGE_SECTION_TYPE,
   ATOM_TYPE
-} from 'mobiledoc-kit/models/types';
+} from 'soul-editor-kit/models/types';
 
 function compareMarkers(actual, expected, assert, path, deepCompare) {
   if (actual.value !== expected.value) {

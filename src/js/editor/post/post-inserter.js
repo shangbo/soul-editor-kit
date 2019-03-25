@@ -1,4 +1,4 @@
-import assert from 'mobiledoc-kit/utils/assert';
+import assert from 'soul-editor-kit/utils/assert';
 import {
   MARKUP_SECTION_TYPE,
   LIST_SECTION_TYPE,
@@ -6,7 +6,7 @@ import {
   CARD_TYPE,
   IMAGE_SECTION_TYPE,
   LIST_ITEM_TYPE,
-} from 'mobiledoc-kit/models/types';
+} from 'soul-editor-kit/models/types';
 
 const MARKERABLE = 'markerable',
       NESTED_MARKERABLE = 'nested_markerable',

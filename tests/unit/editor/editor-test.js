@@ -1,8 +1,8 @@
-import Editor from 'mobiledoc-kit/editor/editor';
-import { EDITOR_ELEMENT_CLASS_NAME, EDITOR_HAS_NO_CONTENT_CLASS_NAME } from 'mobiledoc-kit/renderers/editor-dom';
-import { normalizeTagName } from 'mobiledoc-kit/utils/dom-utils';
-import { MOBILEDOC_VERSION } from 'mobiledoc-kit/renderers/mobiledoc/0-2';
-import Range from 'mobiledoc-kit/utils/cursor/range';
+import Editor from 'soul-editor-kit/editor/editor';
+import { EDITOR_ELEMENT_CLASS_NAME, EDITOR_HAS_NO_CONTENT_CLASS_NAME } from 'soul-editor-kit/renderers/editor-dom';
+import { normalizeTagName } from 'soul-editor-kit/utils/dom-utils';
+import { MOBILEDOC_VERSION } from 'soul-editor-kit/renderers/mobiledoc/0-2';
+import Range from 'soul-editor-kit/utils/cursor/range';
 import Helpers from '../../test-helpers';
 
 const { module, test } = Helpers;

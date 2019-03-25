@@ -1,6 +1,6 @@
-import { buildKeyCommand, findKeyCommands } from 'mobiledoc-kit/editor/key-commands';
-import { MODIFIERS, modifierMask as createModifierMask } from 'mobiledoc-kit/utils/key';
-import Keycodes from 'mobiledoc-kit/utils/keycodes';
+import { buildKeyCommand, findKeyCommands } from 'soul-editor-kit/editor/key-commands';
+import { MODIFIERS, modifierMask as createModifierMask } from 'soul-editor-kit/utils/key';
+import Keycodes from 'soul-editor-kit/utils/keycodes';
 
 import Helpers from '../../test-helpers';
 

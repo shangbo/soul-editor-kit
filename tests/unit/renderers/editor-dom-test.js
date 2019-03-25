@@ -1,12 +1,12 @@
-import PostNodeBuilder from 'mobiledoc-kit/models/post-node-builder';
-import Renderer from 'mobiledoc-kit/renderers/editor-dom';
-import RenderTree from 'mobiledoc-kit/models/render-tree';
+import PostNodeBuilder from 'soul-editor-kit/models/post-node-builder';
+import Renderer from 'soul-editor-kit/renderers/editor-dom';
+import RenderTree from 'soul-editor-kit/models/render-tree';
 import Helpers from '../../test-helpers';
-import { NO_BREAK_SPACE, ZWNJ } from 'mobiledoc-kit/renderers/editor-dom';
-import { TAB } from 'mobiledoc-kit/utils/characters';
+import { NO_BREAK_SPACE, ZWNJ } from 'soul-editor-kit/renderers/editor-dom';
+import { TAB } from 'soul-editor-kit/utils/characters';
 const { module, test } = Helpers;
 
-import placeholderImageSrc from 'mobiledoc-kit/utils/placeholder-image-src';
+import placeholderImageSrc from 'soul-editor-kit/utils/placeholder-image-src';
 let builder;
 
 let renderer;

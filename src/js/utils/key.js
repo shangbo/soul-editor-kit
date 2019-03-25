@@ -1,6 +1,6 @@
 import Keycodes from './keycodes';
 import Keys from './keys';
-import { TAB } from 'mobiledoc-kit/utils/characters';
+import { TAB } from 'soul-editor-kit/utils/characters';
 
 /**
  * @typedef Direction

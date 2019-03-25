@@ -1,5 +1,5 @@
-import EditorDomRenderer from 'mobiledoc-kit/renderers/editor-dom';
-import RenderTree from 'mobiledoc-kit/models/render-tree';
+import EditorDomRenderer from 'soul-editor-kit/renderers/editor-dom';
+import RenderTree from 'soul-editor-kit/models/render-tree';
 
 export default function renderBuiltAbstract(post, editor) {
   editor.post = post;

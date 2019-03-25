@@ -1,7 +1,7 @@
 import { Editor } from 'mobiledoc-kit';
 import Helpers from '../test-helpers';
-import { MOBILEDOC_VERSION } from 'mobiledoc-kit/renderers/mobiledoc/0-3-1';
-import Range from 'mobiledoc-kit/utils/cursor/range';
+import { MOBILEDOC_VERSION } from 'soul-editor-kit/renderers/mobiledoc/0-3-1';
+import Range from 'soul-editor-kit/utils/cursor/range';
 
 const { test, module } = Helpers;
 
