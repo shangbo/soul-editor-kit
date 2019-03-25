@@ -18,7 +18,7 @@ var vendoredModules = [
 
 var cssFiles = new Funnel("src/css", { destDir: "css" });
 
-var packageName = 'mobiledoc-kit';
+var packageName = 'soul-editor-kit';
 
 var buildOptions = {
   libDirName: "src/js",
