@@ -1,5 +1,5 @@
 import PostEditor from 'soul-editor-kit/editor/post';
-import { Editor } from 'mobiledoc-kit';
+import { Editor } from 'soul-editor-kit';
 import Helpers from '../../test-helpers';
 import PostNodeBuilder from 'soul-editor-kit/models/post-node-builder';
 import Range from 'soul-editor-kit/utils/cursor/range';

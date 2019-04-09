@@ -18,7 +18,7 @@ var vendoredModules = [
 
 var cssFiles = new Funnel("src/css", { destDir: "css" });
 
-var packageName = 'soul-editor-kit';
+var packageName = require("./package.json").name;
 
 var buildOptions = {
   libDirName: "src/js",

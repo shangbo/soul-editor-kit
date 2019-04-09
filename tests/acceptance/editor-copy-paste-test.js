@@ -1,4 +1,4 @@
-import { Editor } from 'mobiledoc-kit';
+import { Editor } from 'soul-editor-kit';
 import Helpers from '../test-helpers';
 import {
   MIME_TEXT_PLAIN,

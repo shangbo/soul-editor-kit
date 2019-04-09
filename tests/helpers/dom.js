@@ -4,7 +4,7 @@ import KEY_CODES from 'soul-editor-kit/utils/keycodes';
 import { DIRECTION, MODIFIERS }  from 'soul-editor-kit/utils/key';
 import { isTextNode } from 'soul-editor-kit/utils/dom-utils';
 import { merge } from 'soul-editor-kit/utils/merge';
-import { Editor } from 'mobiledoc-kit';
+import { Editor } from 'soul-editor-kit';
 import {
   MIME_TEXT_PLAIN,
   MIME_TEXT_HTML

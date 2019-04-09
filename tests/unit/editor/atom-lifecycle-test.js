@@ -1,5 +1,5 @@
 import Helpers from '../../test-helpers';
-import { Editor } from 'mobiledoc-kit';
+import { Editor } from 'soul-editor-kit';
 let editorElement, editor;
 
 import { MOBILEDOC_VERSION as MOBILEDOC_VERSION_0_3_1 } from 'soul-editor-kit/renderers/mobiledoc/0-3-1';

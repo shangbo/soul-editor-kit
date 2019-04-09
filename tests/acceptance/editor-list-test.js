@@ -1,4 +1,4 @@
-import { Editor } from 'mobiledoc-kit';
+import { Editor } from 'soul-editor-kit';
 import Helpers from '../test-helpers';
 
 const { module, test } = Helpers;

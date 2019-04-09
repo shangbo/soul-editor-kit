@@ -1,5 +1,5 @@
 import Helpers from '../../test-helpers';
-import { Editor } from 'mobiledoc-kit';
+import { Editor } from 'soul-editor-kit';
 let editorElement, editor;
 
 const { module, test } = Helpers;

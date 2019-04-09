@@ -1,4 +1,4 @@
-import { Editor } from 'mobiledoc-kit';
+import { Editor } from 'soul-editor-kit';
 import Helpers from '../test-helpers';
 import { TAB, ENTER } from 'soul-editor-kit/utils/characters';
 import { MIME_TEXT_PLAIN } from 'soul-editor-kit/utils/parse-utils';
