@@ -137,6 +137,7 @@ export default class EventManager {
   }
 
   compositionstart(){
+    this.editor.setPlaceholder('');
     console.log("compositionstart");
     this.inputProcess = true;
   }
